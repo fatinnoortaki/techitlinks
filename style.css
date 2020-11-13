@@ -1,0 +1,149 @@
+    body {
+      background-size: cover;
+      background-attachment: fixed;
+      background-image: url('bg-img.jpg');
+    }
+    marquee {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 8px #fff, 0 0 18px #d6ccff, 0 0 28px #8e74fc, 0 0 38px #552eff, 0 0 48px #3000ff, 0 0 58px #1c0191, 0 0 68px #130066;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #1a1818, 0 0 40px #1a1a1a, 0 0 50px #333333, 0 0 60px #8a8386, 0 0 70px #696969, 0 0 80px #ff4da6;
+      }
+    }
+    .fa-facebook {
+      color: #3560cb;
+    }
+
+    .fa-youtube {
+      color: red;
+    }
+
+    .fa-instagram {
+      color: #be5288;
+    }
+
+    .fa-twitter {
+      color: #8796eb;
+    }
+    .fa-linkedin {
+      color: #0077B5;
+    }
+
+    .fa-blogger {
+      color: #ffa500;
+    }
+    .mt-4 > a {
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    a {
+      color: white;
+    }
+
+    h6 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
+    .glow, h5 {
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 60px;
+      -webkit-text-stroke: 2px black;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 8px #fff, 0 0 18px #d6ccff, 0 0 28px #8e74fc, 0 0 38px #552eff, 0 0 48px #3000ff, 0 0 58px #1c0191, 0 0 68px #130066;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #1a1818, 0 0 40px #1a1a1a, 0 0 50px #333333, 0 0 60px #8a8386, 0 0 70px #696969, 0 0 80px #ff4da6;
+      }
+    }
+
+    .name {
+      color: white;
+    }
+
+    .love {
+      color: #353b41 !important;
+    }
+
+    #email {
+      position: relative;
+      float: right;
+      display: inline-block;
+      padding: 2.5px 5px;
+      color: #ffffff;
+      text-decoration: none;
+      overflow: hidden;
+      transition: 0.2s;
+      background-color: #011F51;
+      box-shadow: 0 0 20px #0045B7, 0 0 80px #0066FF, 0 0 160px #73D3FF;
+      border-radius: 25%;
+
+    }
+
+    #email:hover {
+      color: #011F51;
+      background-color: #fff;
+      box-shadow: 0 0 20px #73D3FF, 0 0 80px #0066FF, 0 0 160px #0045B7;
+    }
+
+    .footer {
+      margin-top: 5% !important;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    @media (max-width: 479px) {
+      .footer {
+        margin-top: 35% !important;
+      }
+    @media screen and (max-width: 700px) {
+      marquee {
+      font-size: 15px;
+      font-family:'Verdana', Courier, monospace;
+      color: white;
+      scrollamount: 1px;
+      }
+      h5 {
+        font-size: 25px;
+        -webkit-text-stroke: 0.5px black;
+      }
+      .footer {disabled: true;}
+      .mt-4 > .btn-block, .btn-light {
+        margin: 15px;
+      }
+          #email {
+      position: relative;
+      float: right;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5px 10px;
+      color: #ffffff;
+      text-decoration: none;
+      overflow: hidden;
+      background-color: #000;
+      box-shadow: none;
+      border-radius: 10px
+    }
+    #email:hover{
+      color: black;
+      background-color: white;
+      box-shadow: none;
+    }
+    }
